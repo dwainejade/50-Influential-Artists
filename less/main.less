@@ -14,11 +14,12 @@ body{
     justify-content: flex-start;
     align-items: center;
     padding: 1%;
+    color: rgb(93, 92, 92);
 }
 
 img{
     width: 300px;
-    height: 300px;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -27,23 +28,27 @@ img{
     // flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-    border-top: 1px solid;
+    border-top: 2px solid silver;
     text-align: center;
     width: 80%;
 
-    .artist-name{
-        text-decoration: none;
-        font-size: 2rem;
-        padding: 1%;
+    .artist {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding:2%;
+        width: auto;
 
-        .artist {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            padding:2%;
-            width: auto;
-        }
+        .artist-name{
+            text-decoration: none;
+            font-size: 2rem;
+            padding: 1%;
         
+        }
+    .bio {
+        font-size: 1.8rem;
+        }
     }
+    
 }

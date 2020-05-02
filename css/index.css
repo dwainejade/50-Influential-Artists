@@ -118,30 +118,34 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding: 1%;
+  color: #5d5c5c;
 }
 img {
   width: 300px;
-  height: 300px;
+  height: 250px;
   border-radius: 10px;
 }
 .artists-container {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  border-top: 1px solid;
+  border-top: 2px solid silver;
   text-align: center;
   width: 80%;
 }
-.artists-container .artist-name {
-  text-decoration: none;
-  font-size: 2rem;
-  padding: 1%;
-}
-.artists-container .artist-name .artist {
+.artists-container .artist {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 2%;
   width: auto;
+}
+.artists-container .artist .artist-name {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1%;
+}
+.artists-container .artist .bio {
+  font-size: 1.8rem;
 }
