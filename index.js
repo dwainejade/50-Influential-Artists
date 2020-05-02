@@ -253,11 +253,14 @@ console.log(artists)
 
 /* Task 5: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(/* Code here */){
-
-    /* Code here */
-
+function lotsOfArt(array){
+  for(let i = 0; i < array.length; i++){
+    if(array[i].paintings >100){
+      console.log(array[i]);
+    }
   }
+}
+lotsOfArt(artists);
 
 
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
@@ -269,14 +272,17 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(/* Code here */){
-
-    /* Code here */
-
+function addArtist(person){
+  artists.push(person)
   }
-
-
-
+addArtist({
+  'id': 21,
+  'name': 'Dwaine Jade', 
+  'years': 1990,
+  'genre': 'Web Design', 
+  'nationality': 'Grenadian',
+  'bio': 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem maxime est asperiores! Corporis deleniti mollitia saepe tempora ipsam consequuntur laudantium explicabo beatae deserunt molestiae dolorem, numquam velit laboriosam magni fugit!'
+})
 
 
 // 🎨🎨 STRETCH 🎨🎨//
