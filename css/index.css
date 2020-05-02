@@ -1,4 +1,147 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+html {
+  font-size: 62.5%;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  font-size: 4rem;
+  border: 2px solid;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1%;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.artists-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  border-top: 1px solid;
+  text-align: center;
+  width: 80%;
+}
+.artists-container .artist-name {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1%;
+}
+.artists-container .artist-name .artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2%;
+  width: auto;
+}
